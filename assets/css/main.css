@@ -83,6 +83,13 @@ h3
     font-style: italic;
 }
 
+h4
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
 h5
 {
     font-family: 'Cantarell', sans-serif;
