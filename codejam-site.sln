@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML Files", "HTML Files", "{0B63D6EB-8655-4FCF-B055-62F0A82FC239}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		jellytime.html = jellytime.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{84BA5F2D-3D51-4D53-9B7B-D50E53756D32}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{59511D06-2D73-4F63-B551-7E1F0EEAB0A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{18456A6C-BAF6-4A42-9CF3-1B96ED64310B}"
+	ProjectSection(SolutionItems) = preProject
+		assets\css\main.css = assets\css\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{1ED7312E-94B1-48A9-8E94-F47860D74965}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18456A6C-BAF6-4A42-9CF3-1B96ED64310B} = {59511D06-2D73-4F63-B551-7E1F0EEAB0A8}
+		{1ED7312E-94B1-48A9-8E94-F47860D74965} = {59511D06-2D73-4F63-B551-7E1F0EEAB0A8}
 	EndGlobalSection
 EndGlobal
